@@ -1,0 +1,109 @@
+.log-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    width: 500px;
+    background:transparent;
+    box-shadow: 0 3px 10px rgb(78, 76, 76);
+}
+.log-header{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 9px;
+    width:100%;
+    margin-top: 30px;
+}
+.log-text
+{
+    color:rgb(165, 42, 42);
+    font-size: 48px;
+    font-weight: 700;
+}
+.underline
+{
+    width: 61px;
+    height: 6px;
+    background:rgb(165, 42, 42);
+    border-radius: 9px;
+}
+.insert_image {
+    
+    background-image: url('data:image/jpeg;base64,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');
+  
+    
+    min-height: 700px;
+    background-attachment: fixed;
+
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+  }
+.inputs
+{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input
+{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 430px;
+    height: 42px;
+    background: #eaeaea;
+    border-radius: 6px;
+    padding: 8px;
+}
+.input input{
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+.forgot-password
+{
+    padding-left: 32px;
+    margin-top: 27px;
+    color: gray;
+    font-size: 18px;
+}
+.forgot-password span{
+    color:  rgb(165, 42, 42);
+    cursor: pointer;
+}
+.submit-container
+{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+
+}
+.submit
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background-color: rgb(165, 42, 42);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.gray
+{
+    background: #EAEAEA;
+    color: #676767;
+}
